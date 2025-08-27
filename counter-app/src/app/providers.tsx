@@ -2,7 +2,7 @@
 
 import { ConvexProvider, ConvexReactClient } from "convex/react";
 import { useEffect } from "react";
-import { api } from "convex/_generated/api";
+import { api } from "../../convex/_generated/api";
 
 // Get the Convex URL from environment variables
 const convexUrl = process.env.NEXT_PUBLIC_CONVEX_URL!;

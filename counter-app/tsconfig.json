@@ -32,12 +32,17 @@
   },
   "include": [
     "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "convex/**/*.ts",
     ".next/types/**/*.ts",
     "next.config.js"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "jest.setup.ts",
+    "**/__tests__/**",
+    "**/*.test.ts",
+    "**/*.test.tsx"
   ]
 }

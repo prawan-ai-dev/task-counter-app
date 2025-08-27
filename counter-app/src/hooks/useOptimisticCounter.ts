@@ -1,6 +1,6 @@
 import { useState, useCallback } from "react";
 import { useQuery, useMutation } from "convex/react";
-import { api } from "convex/_generated/api";
+import { api } from "../../convex/_generated/api";
 
 export function useOptimisticCounter() {
   const [optimisticCount, setOptimisticCount] = useState<number | null>(null);
