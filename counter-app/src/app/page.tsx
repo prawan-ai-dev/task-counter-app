@@ -1,8 +1,8 @@
 "use client";
 
 import { useMemo } from 'react';
-import { useOptimisticCounter } from '../hooks/useOptimisticCounter';
-import { useConvexConnection } from '../hooks/useConvexConnection';
+import { useOptimisticCounter } from '@/hooks/useOptimisticCounter';
+import { useConvexConnection } from '@/hooks/useConvexConnection';
 import { LoadingSpinner } from '../components/LoadingSpinner';
 
 export default function HomePage() {
