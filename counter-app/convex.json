@@ -1,0 +1,6 @@
+{
+  "auth": {
+    "domain": "counter-app.convex.cloud",
+    "applicationID": "counter-app"
+  }
+}
