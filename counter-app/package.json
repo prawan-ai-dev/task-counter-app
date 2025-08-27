@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:full": "concurrently \"npx convex dev\" \"npm run dev\"",
+    "start:convex": "npx convex dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -19,6 +21,7 @@
     "@types/react": "18.3.5",
     "@types/react-dom": "18.3.0",
     "autoprefixer": "10.4.20",
+    "concurrently": "^9.2.1",
     "eslint": "8.57.0",
     "eslint-config-next": "14.2.5",
     "postcss": "8.4.47",
